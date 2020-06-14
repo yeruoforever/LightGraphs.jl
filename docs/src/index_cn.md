@@ -10,7 +10,7 @@
   * [GraphDataFrameBridge.jl](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl): 一个将DataFrames中以表格形式存储边转为图对象(`MetaGraphs`, `MetaDiGraphs`)的工具。
 
 
-## Basic library examples
+## 基础示例
 
 *LightGraphs.jl* 包含了大量极为方便的通用功能，详见[创建和修改图](@ref), 比如 `path_graph`可以依据给定的长度，极为便利的生成无向的[路径图](https://en.wikipedia.org/wiki/Path_graph)。
 生成的图对象就可以很容易的查询和修改。
@@ -28,4 +28,4 @@ julia> ne(g)
 julia> add_edge!(g, 1, 6)
 ```
 
-了解更多基础功能可以浏览 [图属性的处理](@ref)和[创建和修改图](@ref)。更为详细的教程可以在如下仓库中找到[JuliaGraphs教程](https://github.com/JuliaGraphs/JuliaGraphsTutorials)。
+了解更多基础功能可以浏览 [图属性的访问](@ref)和[创建和修改图](@ref)。更为详细的教程可以在如下仓库中找到[JuliaGraphs教程](https://github.com/JuliaGraphs/JuliaGraphsTutorials)。
