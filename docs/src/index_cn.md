@@ -2,7 +2,7 @@
 
 *LightGraphs.jl* 的目标是为网络和图分析提供一个Julia下的高性能平台。  出于这个目的，LightGraphs不仅提供了(a) 一个具体的、简单的“图”的实现-- `SimpleGraph` (无向图) and `SimpleDiGraph` (有向图), 还提供了 (b) 一个可以构建更加复杂图实现的API， `AbstractGraph` 抽象类型。
 
-因此, *LightGraphs.jl* 作为JuliaGraphs生态的核心包。额外的功能，像高级的IO和图文件格式、带权重的图、带属性的图和忧患相关的功能可以在下面的包中找到：
+因此, *LightGraphs.jl* 作为JuliaGraphs生态的核心包。额外的功能，像高级的IO和图文件格式、带权重的图、带属性的图和优化相关的功能可以在下面的包中找到：
   * [LightGraphsExtras.jl](https://github.com/JuliaGraphs/LightGraphsExtras.jl): 图相关的额外功能。
   * [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl): 关联有元数据的图的实现。
   * [SimpleWeightedGraphs.jl](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl): 带权重的图。
