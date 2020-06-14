@@ -4,7 +4,7 @@
 
 因此, *LightGraphs.jl* 作为JuliaGraphs生态的核心包。额外的功能，像高级的IO和图文件格式、带权重的图、带属性的图和忧患相关的功能可以在下面的包中找到：
   * [LightGraphsExtras.jl](https://github.com/JuliaGraphs/LightGraphsExtras.jl): 图相关的额外功能。
-  * [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl): 元数据相关的图实现。
+  * [MetaGraphs.jl](https://github.com/JuliaGraphs/MetaGraphs.jl): 关联有元数据的图的实现。
   * [SimpleWeightedGraphs.jl](https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl): 带权重的图。
   * [GraphIO.jl](https://github.com/JuliaGraphs/GraphIO.jl): 一个用于导入、导出通用的如edgelists, GraphML、Pajek NET等图对象文件格式的工具。
   * [GraphDataFrameBridge.jl](https://github.com/JuliaGraphs/GraphDataFrameBridge.jl): 一个将DataFrames中以表格形式存储边转为图对象(`MetaGraphs`, `MetaDiGraphs`)的工具。
@@ -28,4 +28,4 @@ julia> ne(g)
 julia> add_edge!(g, 1, 6)
 ```
 
-了解更多基础功能可以浏览 [Accessing Graph Properties](@ref)和[Making and Modifying Graphs](@ref)。更为详细的教程可以在如下仓库中找到[JuliaGraphs Tutorial Notebooks](https://github.com/JuliaGraphs/JuliaGraphsTutorials)。
+了解更多基础功能可以浏览 [图属性的处理](@ref)和[创建和修改图](@ref)。更为详细的教程可以在如下仓库中找到[JuliaGraphs教程](https://github.com/JuliaGraphs/JuliaGraphsTutorials)。
