@@ -12,7 +12,7 @@
 
 ## Basic library examples
 
-*LightGraphs.jl* 包含了大量极为方便的通用功能，详见[Making and Modifying Graphs](@ref), 比如 `path_graph`可以依据给定的长度，极为便利的生成无向的[路径图](https://en.wikipedia.org/wiki/Path_graph)。
+*LightGraphs.jl* 包含了大量极为方便的通用功能，详见[创建和修改图](@ref), 比如 `path_graph`可以依据给定的长度，极为便利的生成无向的[路径图](https://en.wikipedia.org/wiki/Path_graph)。
 生成的图对象就可以很容易的查询和修改。
 
 ```julia
